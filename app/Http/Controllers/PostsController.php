@@ -14,8 +14,8 @@ class PostsController extends Controller
     public function store()
     {
         $this->validate(request(),[
-        'title' => 'required',
-        'descrption' => 'required',
+            'title' => 'required',
+            'descrption' => 'required',
         ]);
 
         $category = new Category;
