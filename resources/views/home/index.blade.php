@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Confirmation
+        Home
     </title>
 </head>
 <body>
