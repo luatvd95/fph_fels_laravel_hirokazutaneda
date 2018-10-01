@@ -19,7 +19,6 @@ class SessionsController extends Controller
 
     public function store()
     {
-
         if(! auth()->attempt(request(['email','password'])))
         {
             return back();
